@@ -1,0 +1,329 @@
+
+/* CSS */
+
+body{
+    margin: 0;
+    width: 100%;
+}
+
+.btonGet {
+  background-color: initial;
+ background-color:  hsl(231, 69%, 60%);
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -4px;
+  outline: 0;
+  text-align: center;
+  transition: all .3s cubic-bezier(.05, .03, .35, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: bottom;
+  width: 190px;
+}
+.btonGet2 {
+    background-color: initial;
+    background-image: linear-gradient(#ffffff 0, #fdfdfd 100%);
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -4px;
+    outline: 0;
+    text-align: center;
+    transition: all .3s cubic-bezier(.05, .03, .35, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: bottom;
+    width: 190px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+.btonGet:hover {
+  opacity: .7;
+}
+.btonGet2:hover {
+    opacity: .7;
+  }
+.contentBtn{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.img_bookmark{
+    border: black solid 15px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+width: 75%;
+}
+
+
+.contenedor12{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+   
+}
+.content_features{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30vh;
+}
+.contentTabs{
+height: 60vh;
+display: flex;
+align-items: center;
+margin: 20px;
+padding: 20px;
+}
+.cont_tabs--img img{
+    width: 80%;
+}
+.listFr{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.areaFo{
+    height: 50vh;
+}
+
+.cont_tabs{
+    display: flex;
+    align-items: center;
+}
+.btnNav{
+    background-color: transparent;
+}
+.listFr li button {
+    color: black !important;
+    font-weight: bold;
+}
+.cont_down_inf div{
+text-align: center;
+}
+.listFr .active {
+    border-bottom: 2px solid red;
+    color: black !important;
+    background-color: transparent !important;
+}
+.content_down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    height: 20vh;
+}
+.forCol{
+    margin: 10px;
+    width: 33%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+.forContVis{
+    display: flex;
+    height: 55%;
+
+}
+.formNav{
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+
+}
+.tab_freq{
+    display: flex;
+    justify-content: center ;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.forQuestion{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.forNavFoot{
+  background-color: #760be0;
+    height: 10vh;
+}
+.forNav_pr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    color: white;
+    text-align: center;
+    background-color:  hsl(231, 69%, 60%);
+}
+.footer_sig{
+    display: flex;
+height: 5vh;
+align-items: center;
+}
+.footer_sig li{
+list-style: none;
+margin-right: 20px;
+}
+.footer_sig img{
+    margin-right: 10px;
+    align-items: item;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+}
+.footer_sig2{
+    margin-right: 50px;
+}
+.footer_sig2 svg{
+margin-right: 20px;
+width: 40px;
+height: 40px;
+}
+@media screen and (max-width: 375px) {
+    .forNavbar{
+        width: 100%;
+    }
+  .btonGet , .btonGet2{
+    font-size: 14px;
+    height: 45px;
+    line-height: 45px;
+    width: 150px;
+    margin: 10px;
+  }
+.img_bookmark{
+    width: 100%;
+    padding: 10px;
+}
+.contenedor12{
+    margin: 40px;
+    height: 60vh;
+    width: 100%;
+}
+.formas{
+    flex-direction: column-reverse;
+}
+.contentTabs{
+    width: 100%;
+    height: 50vh;
+}
+.content_features{
+    margin: 40px;
+    height: 50vh;
+    width: 100%;
+}
+.forCol{
+width: 90%;
+flex-wrap: wrap;
+text-align: center;
+margin: 0;
+}
+.forNav>.btonGet{
+ width: max-content;
+}
+
+.forContVis{
+    display: flex;
+    height: 82vh;
+    flex-wrap: wrap;
+}
+.totalConst{
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+.cont_tabs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   padding: 20px;
+}
+.contentTabs{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 70vh;
+    padding: 10px;
+    text-align: center;
+}
+.listFr li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.listFr{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.content_down{
+    margin-top: 20px ;
+}
+.forQuestion{
+    margin: 30px;
+    width: 100%;
+}
+.forQues{
+    width: 80%;
+}
+.footer_content{
+    width: 100%;
+}
+
+
+
+
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+
+}
+.footer_sig img{
+    width: 100px;
+}
+.footer_sig{
+font-size: 0.7rem;}
+.footer_sig2{
+   
+    display: flex;
+}
+.footer_sig2 svg{
+  
+margin-right: 1px;
+width: 10px;
+height: 10px;
+}
+}
+
+
+
